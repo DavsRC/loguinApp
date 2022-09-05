@@ -6,17 +6,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class CreateAccountAct extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_create_account);
     }
 
-    //Method button of create account
-    public void CreateAccount(View view){
-        Intent next = new Intent(this, CreateAccountAct.class);
-        startActivity(next);
+    //Method back
+    public void Back(View view){
+        Intent back = new Intent(this, MainActivity.class);
+        startActivity(back);
     }
 }

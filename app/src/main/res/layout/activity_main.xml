@@ -51,7 +51,7 @@
                         android:id="@+id/textView4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Resicencia Su Casa"
+                        android:text="Residencia Su Casa"
                         android:textAlignment="center"
                         android:textColor="@color/colorPrimary"
                         android:textStyle="bold" />
@@ -171,7 +171,8 @@
                 android:layout_marginTop="15dp"
                 android:background="@drawable/boton"
                 android:backgroundTint="@color/colorPrimary"
-                android:text="Create Account"
+                android:onClick="CreateAccount"
+                android:text="@string/ButtonNext"
                 android:textAllCaps="false"
                 android:textColor="@color/colorBlancoOpacidad" />
 
