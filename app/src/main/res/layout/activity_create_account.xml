@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".CreateAccountAct">
 
     <LinearLayout
@@ -19,27 +20,31 @@
             android:layout_margin="10dp"
             android:background="@drawable/border_top"
             android:ems="10"
-            android:hint="Email Adrress"
+            android:hint="Email Address"
             android:inputType="textEmailAddress"
             android:padding="15dp" />
 
-        <TextView
-            android:id="@+id/textView5"
+        <EditText
+            android:id="@+id/editTextTextPersonName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="@drawable/border_top"
-            android:padding="15dp"
-            android:text="Name" />
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:padding="15dp" />
 
-        <TextView
-            android:id="@+id/textView6"
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="@drawable/border_bottom"
-            android:padding="15dp"
-            android:text="Last Name" />
+            android:ems="10"
+            android:hint="Last Name"
+            android:inputType="textPersonName"
+            android:padding="15dp" />
 
         <EditText
             android:id="@+id/editTextPhone"
