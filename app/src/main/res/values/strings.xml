@@ -2,4 +2,6 @@
     <string name="app_name">MyApplication</string>
     <string name="ButtonNext">Create Account</string>
     <string name="ButtonBack">Back</string>
+    <string name="pomodoro_app">Pomodoro App</string>
+    <string name="stayfocus">#StayFocus</string>
 </resources>
